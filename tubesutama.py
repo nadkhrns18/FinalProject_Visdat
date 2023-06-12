@@ -8,8 +8,8 @@ from bokeh.resources import CDN
 st.set_page_config(page_title='Final Project')
 
 st.header('TUBES VISDAT')
-st.header('Nadia')
-st.header('Dian')
+st.header('Nadia Khairunissa - 1301204167')
+st.header('Dian Ramadhini - 1301200254')
 
 # Baca CSV
 df = pd.read_csv("Covid19Indonesia.csv")
@@ -82,7 +82,7 @@ bokehlinep = figure(x_axis_label='Date', y_axis_label='Total Active Cases', y_ax
                  x_axis_type="datetime")  
 bokehlinep.line(x='Date', y='Total Cases', color='yellow', legend_label="Kasus", source=Curr)
 bokehlinep.line(x='Date', y='Total Deaths', color='pink', legend_label="Kematian", source=Curr)
-bokehlinep.line(x='Date', y='Total Recovered', color='purple', legend_label="Kesembuh", source=Curr)
+bokehlinep.line(x='Date', y='Total Recovered', color='purple', legend_label="Kesembuhan", source=Curr)
 bokehlinep.line(x='Date', y='Total Active Cases', color='orange', legend_label="Kasus Aktif", source=Curr)
 bokehlinep.legend.location = "top_right"
 bokehlinep.add_tools(HoverTool(
