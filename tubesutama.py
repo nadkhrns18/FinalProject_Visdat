@@ -7,7 +7,7 @@ from bokeh.resources import CDN
 
 st.set_page_config(page_title='Final Project')
 
-st.header('TUBES VISDAT')
+st.header('Final Project - Visualisasi Data')
 st.header('Nadia Khairunissa - 1301204167')
 st.header('Dian Ramadhini - 1301200254')
 
